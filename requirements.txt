@@ -1,7 +1,7 @@
-torch==2.0.1  # Install CPU-compatible PyTorch if Streamlit Cloud lacks GPU support
-diffusers==0.17.1  # Adjust version if needed
+torch==2.0.1  # CPU-compatible PyTorch
+diffusers==0.17.1  # Version compatible with PyTorch 2.0
 transformers==4.31.0
 accelerate==0.21.0
 matplotlib
 Pillow
-streamlit
+streamlit==1.40.0  # Match Streamlit Cloud's version if possible
