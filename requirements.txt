@@ -1,7 +1,8 @@
-torch==2.0.1  # CPU-only version of PyTorch
-diffusers==0.17.1
-transformers
-accelerate
+torch==2.0.1  # CPU-compatible version of PyTorch
+diffusers==0.14.0  # Compatible version that uses cached_download
+transformers==4.31.0
+huggingface_hub==0.15.1  # Version that still includes cached_download
+accelerate==0.21.0
 matplotlib
 Pillow
 streamlit==1.40.0
