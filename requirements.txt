@@ -3,3 +3,6 @@ diffusers==0.18.0
 torch
 Pillow
 huggingface_hub==0.18.0
+torch==2.0.1
+torchvision==0.15.2
+torchaudio==2.0.2
