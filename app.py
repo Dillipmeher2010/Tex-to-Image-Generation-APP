@@ -4,11 +4,10 @@ import torch
 import matplotlib.pyplot as plt
 from PIL import Image
 
-# Load model on CPU if CUDA is unavailable
+# Load model on CPU for compatibility with Streamlit Cloud
 model_id = "dreamlike-art/dreamlike-diffusion-1.0"
-device = "cuda" if torch.cuda.is_available() else "cpu"
-pipe = StableDiffusionPipeline.from_pretrained(model_id, torch_dtype=torch.float16 if device == "cuda" else torch.float32)
-pipe = pipe.to(device)
+pipe = StableDiffusionPipeline.from_pretrained(model_id, torch_dtype=torch.float32)
+pipe = pipe.to("cpu")  # Use CPU instead of GPU
 
 # Function to generate images with specified parameters
 def generate_image(prompt, params):
