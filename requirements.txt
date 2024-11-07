@@ -1,6 +1,7 @@
-torch==2.0.1+cu117  # or an appropriate version with CUDA support
-diffusers
-transformers
-accelerate
+torch==2.0.1  # Install CPU-compatible PyTorch if Streamlit Cloud lacks GPU support
+diffusers==0.17.1  # Adjust version if needed
+transformers==4.31.0
+accelerate==0.21.0
 matplotlib
+Pillow
 streamlit
