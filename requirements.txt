@@ -1,7 +1,7 @@
-torch==2.0.1  # CPU-compatible PyTorch
-diffusers==0.17.1  # Version compatible with PyTorch 2.0
-transformers==4.31.0
-accelerate==0.21.0
+torch  # Will install the latest CPU-compatible version
+diffusers==0.17.1
+transformers
+accelerate
 matplotlib
 Pillow
-streamlit==1.40.0  # Match Streamlit Cloud's version if possible
+streamlit==1.40.0
