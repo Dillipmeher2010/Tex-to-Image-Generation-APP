@@ -1,7 +1,3 @@
-pip install --upgrade huggingface_hub
-pip install --upgrade diffusers
-pip install --upgrade transformers
-
 import streamlit as st
 from diffusers import StableDiffusionPipeline
 import torch
