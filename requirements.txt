@@ -1,4 +1,4 @@
-torch  # Will install the latest CPU-compatible version
+torch==2.0.1  # CPU-only version of PyTorch
 diffusers==0.17.1
 transformers
 accelerate
