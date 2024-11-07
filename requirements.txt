@@ -1,4 +1,5 @@
 streamlit
-diffusers
+diffusers==0.18.0
 torch
 Pillow
+huggingface_hub==0.18.0
